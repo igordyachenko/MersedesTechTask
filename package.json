@@ -1,0 +1,45 @@
+{
+  "name": "protractor-cucumber",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Tech tasks for a project",
+  "homepage": "https://github.com/igordyachenko/MersedesTechTask",
+  "keywords": [
+    "protractor",
+    "cucumber",
+    "allure reports",
+    "angular",
+    "angularjs",
+    "testing",
+    "behaviour driven development",
+    "bdd",
+    "selenium",
+    "webdriverJS",
+    "posgreSQL",
+    "gherkin",
+    "automation testing"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor config.js",
+    "start": "webdriver-manager start"
+  },
+  "author": "Igor Dyachenko <dyachenkoi@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~3.4.0",
+    "protractor": "^5.0.0",
+    "cucumber": "1.3.2",
+    "selenium-webdriver": ">=2.44.0",
+    "protractor-cucumber-framework": "^3.1.0",
+    "chai-as-promised": "^5.3.0",
+    "cucumber-html-report": "^0.5.1",
+    "cucumber-html-reporter": "^0.2.6",
+    "cucumberjs-allure-reporter": "^1.0.2",
+    "pg": "^6.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igordyachenko/MersedesTechTask"
+  }
+}
