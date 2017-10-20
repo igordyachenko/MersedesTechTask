@@ -31,7 +31,7 @@ tabPage = function () {
 
     //ToDo: move locator to page object; re-work properly to wait hotel list result
     this.Then(/^I should see list of results$/, function () {
-        expect(element(by.css('.description-summary-container').isPresent()).toBe(true);
+        expect(element(by.css('.description-summary-container')));
         // var searchList = element.all($('.summary-container'));
         // return expect(searchList.get(0).getElement()).isElementPresent('.summary-container');
 
@@ -86,4 +86,4 @@ tabPage = function () {
     });
 
 };
-module.exports = tabPage
+module.exports = tabPage;

@@ -15,7 +15,6 @@ Feature: Hotel search
     And I enter number of Children "<ChildrenAmount>"
     When I enter required search "<destination>"
     And I click Find Hotel button
-    Then I should see the page title
     And I should see list of results
     Examples:
       | destination | CheckIn    | CheckOut   | RoomsAmount | AdultsAmount | ChildrenAmount |
